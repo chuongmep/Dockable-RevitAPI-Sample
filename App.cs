@@ -7,7 +7,8 @@ namespace DockableRevitAPI
 	class App : IExternalApplication
 	{
 		public static DocPanel DockPanelProvider;
-        public static DockablePaneId PaneId => new DockablePaneId(new Guid("D12C5388-69C4-4A27-B440-5AF7AF03D5F1"));
+	
+        public static DockablePaneId PaneId => new DockablePaneId(new Guid("FAF92697-2CE7-46E0-B7D2-53037BD55507"));
 
         public static string PaneName => "DocPanel";
 
