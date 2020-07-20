@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DockableRevitAPI</Text>
+    <Description>Some description for DockavlePaneSample</Description>
+    <Assembly>DockableRevitAPI.dll</Assembly>
+    <FullClassName>DockableRevitAPI.Command</FullClassName>
+    <ClientId>9453DCF5-E9E4-4816-A3AB-DBF3C3F9E2E7</ClientId>
+    <VendorId>VendorId</VendorId>
+    <VendorDescription>VendorDescription</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DockableRevitAPI</Name>
+    <Assembly>DockableRevitAPI.dll</Assembly>
+    <FullClassName>DockableRevitAPI.App</FullClassName>
+    <ClientId>544CFC72-57BC-4512-BEEE-52FC77F3E8D8</ClientId>
+    <VendorId>VendorId</VendorId>
+    <VendorDescription>VendorDescription</VendorDescription>
+  </AddIn>
+</RevitAddIns>
