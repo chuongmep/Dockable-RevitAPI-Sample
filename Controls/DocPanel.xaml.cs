@@ -4,24 +4,18 @@ using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace DockableRevitAPI.Controls
 {
-	public partial class DocPanel : IDockablePaneProvider
-	{
-		public DocPanel()
-		{
-			InitializeComponent();
-		}
-		public void SetupDockablePane(DockablePaneProviderData data)
-		{
-			data.FrameworkElement = this;
-			data.InitialState = new DockablePaneState
-            {
-                DockPosition = DockPosition.Left,
-				TabBehind = DockablePanes.BuiltInDockablePanes.ProjectBrowser
-            };
-			
-		}
+    public partial class DocPanel : IDockablePaneProvider
+    {
+        public DocPanel()
+        {
+            InitializeComponent();
+        }
+        public void SetupDockablePane(DockablePaneProviderData data)
+        {
+            data.FrameworkElement = this;
+        }
 
-		
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Cancel");
